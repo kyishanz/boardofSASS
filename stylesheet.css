@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Fraunces 144norm';
-    src: url("/Users/yishan/Library/Fonts/Fraunces_144pt-Thin.ttf");
+    src: url("Fraunces_144pt-Thin.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -74,7 +74,7 @@ div.title {
 }
 #name {
     /* margin-left: 300px; */
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces 144it';
     font-style: italic;
     font-weight: lighter;
     font-size: 144px;
@@ -83,7 +83,7 @@ div.title {
 }
 #boardtitle {
     margin-left: -110px;
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces 144it';
     font-style: italic;
     font-weight: 200;
     font-size: 144px;
@@ -129,7 +129,7 @@ img#arrow {
 
 /* general items */
 h3 {
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces 144norm';
     font-size: 66px;
     font-weight: lighter;
 }
@@ -255,7 +255,7 @@ img.footer {
     object-fit: fill;
 }
 h4 {
-    font-family: 'Fraunces 144pt';
+    font-family: 'Fraunces 144it';
     font-size: 66px;
     font-style: italic;
     font-weight: lighter;
@@ -300,7 +300,7 @@ h5::before {
 
 @media (max-width: 1000px) {
     h3 {
-        font-family: 'Fraunces 144pt';
+        font-family: 'Fraunces 144norm';
         font-size: 54px;
         font-weight: lighter;
     }
