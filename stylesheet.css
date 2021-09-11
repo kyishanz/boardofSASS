@@ -169,6 +169,7 @@ div.abouttext {
     display: flex; 
     flex-direction: column;
     padding: 10px;
+    margin-bottom: -30px;
 }
 div.about1 {
     display: flex;
@@ -184,6 +185,18 @@ p#about {
 img#about {
     margin-left: 50px;
     /* margin-top: -80px; */
+}
+a.link {
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-style: italic;
+    /* color: red; */
+    /* font-family: 'SF Pro Display', 'Helvetica Neue';
+    font-weight: 400; */
+}
+div#links {
+    margin-top: 20px;
 }
 
 /* plans */
